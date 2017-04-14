@@ -35,7 +35,7 @@ Report [here](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launche
 
 ### Language Used
 
-Visual Basic .NET
+Visual Basic
 
 ## Built With
 
