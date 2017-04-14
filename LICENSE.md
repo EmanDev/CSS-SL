@@ -1,4 +1,4 @@
-Counter-Strike: Source Server Launcher
+Counter-Strike: Source Server Launcher - https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher
 
 Copyright (c) 2017 Emanzz Marcaida
 
@@ -19,4 +19,4 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTIO
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Portions of this software are (c) 2011 Sven Walter, http://github.com/viperneo
+Portions of this software are (c) 2011 Sven Walter, https://github.com/viperneo

@@ -54,4 +54,4 @@ You can edit it yourself without my permision. But please credit me as source/au
 
 ## Credits
 
-[Dennis Magno](https://github.com/dennismagno) for an design for Windows Forms.
+[Dennis Magno](https://github.com/dennismagno) for an amazing design for Windows Forms.
