@@ -24,9 +24,9 @@ Extract it anywhere on your pc.
 
 ## Deployment
 
-1. Open it normally
-2. Click on 'Find Target
-3. Add your parameters
+1. Open 'Counter-Strike Source Server Launcher" normally.
+2. Click on 'Find Target.
+3. Add your parameters.
 4. LAUNCH!
 
 ## Bugs
