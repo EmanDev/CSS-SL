@@ -33,7 +33,7 @@ Extract it anywhere on your pc.
 
 Report [here](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/issues).
 
-### Language Used
+### Programming Language/s Used
 
 Visual Basic
 
