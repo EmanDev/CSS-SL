@@ -9,7 +9,8 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.StyleManager = MetroStyleManager1
-
+        MetroCheckBox1.Checked = My.Settings.checkbox
+        MetroTextBox1.Text = My.Settings.textbox
     End Sub
 
     Private Sub MetroCheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles MetroCheckBox2.CheckedChanged
@@ -80,5 +81,11 @@ Public Class Form1
 
     Private Sub MetroLink1_Click(sender As Object, e As EventArgs) Handles MetroLink1.Click
         Process.Start("https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/blob/master/Changelog.md")
+    End Sub
+
+    Private Sub Form1_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+        My.Settings.checkbox = MetroCheckBox1.Checked
+        My.Settings.textbox = MetroTextBox1.Text
+        My.Settings.Save()
     End Sub
 End Class

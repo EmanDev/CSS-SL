@@ -56,13 +56,25 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property location() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property checkbox() As Boolean
             Get
-                Return CType(Me("location"),String)
+                Return CType(Me("checkbox"),Boolean)
             End Get
             Set
-                Me("location") = value
+                Me("checkbox") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property textbox() As String
+            Get
+                Return CType(Me("textbox"),String)
+            End Get
+            Set
+                Me("textbox") = value
             End Set
         End Property
     End Class
