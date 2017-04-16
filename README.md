@@ -12,6 +12,12 @@ Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a vb.net progra
 
 Download the latest CSS Server Launcher [here](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/releases/tag/release).
 
+## Releases
+
+[Downloads](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher#downloads) will outadted. Releases will be scheduled here.
+
+Next Release: 04/17/2017 - Includes changes
+
 ### Requirements
 
 1. Windows 7 (or higher).
