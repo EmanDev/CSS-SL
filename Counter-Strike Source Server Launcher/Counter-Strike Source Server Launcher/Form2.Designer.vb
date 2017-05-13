@@ -1,7 +1,7 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     'Inherits System.Windows.Forms.Form
-	'Import MetroFramework inside forms
+    'Import MetroFrameWork inside Forms
     Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.

@@ -165,7 +165,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ic_rss_feed_black_48dp_1x.ico" />
-    <Content Include="Network-Drives-128.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

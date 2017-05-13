@@ -1,7 +1,7 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     'Inherits System.Windows.Forms.Form
-	'Import MetroFramework inside forms
+    'Import MetroFramework inside forms
     Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
@@ -32,20 +32,22 @@ Partial Class Form1
         Me.MetroCheckBox3 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroButton3 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
-        Me.MetroCheckBox2 = New MetroFramework.Controls.MetroCheckBox()
+        Me.MetroCheckbox2 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroTextBox2 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroButton2 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel2 = New MetroFramework.Controls.MetroLabel()
-        Me.MetroCheckBox1 = New MetroFramework.Controls.MetroCheckBox()
+        Me.MetroCheckbox1 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroTextBox1 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
+        Me.MetroTile2 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile1 = New MetroFramework.Controls.MetroTile()
         Me.MetroTabPage3 = New MetroFramework.Controls.MetroTabPage()
+        Me.MetroLabel5 = New MetroFramework.Controls.MetroLabel()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.MetroLink4 = New MetroFramework.Controls.MetroLink()
         Me.MetroLink3 = New MetroFramework.Controls.MetroLink()
-        Me.MetroLink2 = New MetroFramework.Controls.MetroLink()
         Me.MetroLabel4 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLink1 = New MetroFramework.Controls.MetroLink()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
@@ -64,7 +66,7 @@ Partial Class Form1
         Me.MetroTabControl1.Controls.Add(Me.MetroTabPage3)
         Me.MetroTabControl1.Location = New System.Drawing.Point(13, 63)
         Me.MetroTabControl1.Name = "MetroTabControl1"
-        Me.MetroTabControl1.SelectedIndex = 0
+        Me.MetroTabControl1.SelectedIndex = 1
         Me.MetroTabControl1.Size = New System.Drawing.Size(494, 244)
         Me.MetroTabControl1.TabIndex = 0
         Me.MetroTabControl1.UseSelectable = True
@@ -75,11 +77,11 @@ Partial Class Form1
         Me.MetroTabPage1.Controls.Add(Me.MetroCheckBox3)
         Me.MetroTabPage1.Controls.Add(Me.MetroButton3)
         Me.MetroTabPage1.Controls.Add(Me.MetroLabel3)
-        Me.MetroTabPage1.Controls.Add(Me.MetroCheckBox2)
+        Me.MetroTabPage1.Controls.Add(Me.MetroCheckbox2)
         Me.MetroTabPage1.Controls.Add(Me.MetroTextBox2)
         Me.MetroTabPage1.Controls.Add(Me.MetroButton2)
         Me.MetroTabPage1.Controls.Add(Me.MetroLabel2)
-        Me.MetroTabPage1.Controls.Add(Me.MetroCheckBox1)
+        Me.MetroTabPage1.Controls.Add(Me.MetroCheckbox1)
         Me.MetroTabPage1.Controls.Add(Me.MetroTextBox1)
         Me.MetroTabPage1.Controls.Add(Me.MetroButton1)
         Me.MetroTabPage1.Controls.Add(Me.MetroLabel1)
@@ -138,15 +140,15 @@ Partial Class Form1
         Me.MetroLabel3.TabIndex = 10
         Me.MetroLabel3.Text = "C. Custom Parameters"
         '
-        'MetroCheckBox2
+        'MetroCheckbox2
         '
-        Me.MetroCheckBox2.AutoSize = True
-        Me.MetroCheckBox2.Location = New System.Drawing.Point(265, 60)
-        Me.MetroCheckBox2.Name = "MetroCheckBox2"
-        Me.MetroCheckBox2.Size = New System.Drawing.Size(97, 15)
-        Me.MetroCheckBox2.TabIndex = 9
-        Me.MetroCheckBox2.Text = "Lock Location"
-        Me.MetroCheckBox2.UseSelectable = True
+        Me.MetroCheckbox2.AutoSize = True
+        Me.MetroCheckbox2.Location = New System.Drawing.Point(265, 60)
+        Me.MetroCheckbox2.Name = "MetroCheckbox2"
+        Me.MetroCheckbox2.Size = New System.Drawing.Size(149, 15)
+        Me.MetroCheckbox2.TabIndex = 9
+        Me.MetroCheckbox2.Text = "Enable Read Only Mode"
+        Me.MetroCheckbox2.UseSelectable = True
         '
         'MetroTextBox2
         '
@@ -167,7 +169,7 @@ Partial Class Form1
         Me.MetroTextBox2.MaxLength = 32767
         Me.MetroTextBox2.Name = "MetroTextBox2"
         Me.MetroTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.MetroTextBox2.PromptText = "Parameters"
+        'Me.MetroTextBox2.PromptText = "Parameters"
         Me.MetroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None
         Me.MetroTextBox2.SelectedText = ""
         Me.MetroTextBox2.SelectionLength = 0
@@ -199,15 +201,15 @@ Partial Class Form1
         Me.MetroLabel2.TabIndex = 6
         Me.MetroLabel2.Text = "B. Configure and Launch srcds.exe"
         '
-        'MetroCheckBox1
+        'MetroCheckbox1
         '
-        Me.MetroCheckBox1.AutoSize = True
-        Me.MetroCheckBox1.Location = New System.Drawing.Point(129, 60)
-        Me.MetroCheckBox1.Name = "MetroCheckBox1"
-        Me.MetroCheckBox1.Size = New System.Drawing.Size(130, 15)
-        Me.MetroCheckBox1.TabIndex = 5
-        Me.MetroCheckBox1.Text = "Remember Location"
-        Me.MetroCheckBox1.UseSelectable = True
+        Me.MetroCheckbox1.AutoSize = True
+        Me.MetroCheckbox1.Location = New System.Drawing.Point(129, 60)
+        Me.MetroCheckbox1.Name = "MetroCheckbox1"
+        Me.MetroCheckbox1.Size = New System.Drawing.Size(130, 15)
+        Me.MetroCheckbox1.TabIndex = 5
+        Me.MetroCheckbox1.Text = "Remember Location"
+        Me.MetroCheckbox1.UseSelectable = True
         '
         'MetroTextBox1
         '
@@ -228,7 +230,7 @@ Partial Class Form1
         Me.MetroTextBox1.MaxLength = 32767
         Me.MetroTextBox1.Name = "MetroTextBox1"
         Me.MetroTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.MetroTextBox1.PromptText = "srcds.exe location"
+        'Me.MetroTextBox1.PromptText = "srcds.exe location"
         Me.MetroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None
         Me.MetroTextBox1.SelectedText = ""
         Me.MetroTextBox1.SelectionLength = 0
@@ -262,6 +264,7 @@ Partial Class Form1
         '
         'MetroTabPage2
         '
+        Me.MetroTabPage2.Controls.Add(Me.MetroTile2)
         Me.MetroTabPage2.Controls.Add(Me.MetroTile1)
         Me.MetroTabPage2.HorizontalScrollbarBarColor = True
         Me.MetroTabPage2.HorizontalScrollbarHighlightOnWheel = False
@@ -275,6 +278,17 @@ Partial Class Form1
         Me.MetroTabPage2.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage2.VerticalScrollbarSize = 10
         '
+        'MetroTile2
+        '
+        Me.MetroTile2.ActiveControl = Nothing
+        Me.MetroTile2.BackColor = System.Drawing.SystemColors.Control
+        Me.MetroTile2.Location = New System.Drawing.Point(164, 3)
+        Me.MetroTile2.Name = "MetroTile2"
+        Me.MetroTile2.Size = New System.Drawing.Size(158, 75)
+        Me.MetroTile2.TabIndex = 3
+        Me.MetroTile2.Text = "Report Bugs"
+        Me.MetroTile2.UseSelectable = True
+        '
         'MetroTile1
         '
         Me.MetroTile1.ActiveControl = Nothing
@@ -287,9 +301,10 @@ Partial Class Form1
         '
         'MetroTabPage3
         '
+        Me.MetroTabPage3.Controls.Add(Me.MetroLabel5)
+        Me.MetroTabPage3.Controls.Add(Me.ListBox1)
         Me.MetroTabPage3.Controls.Add(Me.MetroLink4)
         Me.MetroTabPage3.Controls.Add(Me.MetroLink3)
-        Me.MetroTabPage3.Controls.Add(Me.MetroLink2)
         Me.MetroTabPage3.Controls.Add(Me.MetroLabel4)
         Me.MetroTabPage3.Controls.Add(Me.MetroLink1)
         Me.MetroTabPage3.HorizontalScrollbarBarColor = True
@@ -304,9 +319,30 @@ Partial Class Form1
         Me.MetroTabPage3.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage3.VerticalScrollbarSize = 10
         '
+        'MetroLabel5
+        '
+        Me.MetroLabel5.AutoSize = True
+        Me.MetroLabel5.Location = New System.Drawing.Point(0, 132)
+        Me.MetroLabel5.Name = "MetroLabel5"
+        Me.MetroLabel5.Size = New System.Drawing.Size(235, 19)
+        Me.MetroLabel5.TabIndex = 8
+        Me.MetroLabel5.Text = "Counter-Strike Source Server Launcher"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {"Bugs: ", "Remember Location not working properly.", "Forecolor of texts in forms doesn't change to dark once white style has been appl" &
+                "ied.", "", "Possible Fixes:", "Remeber Location - Not yet, will remove on the next build", "Forecolors - Will remove White Style from Theme Manager untill forecolors are fix" &
+                "ed"})
+        Me.ListBox1.Location = New System.Drawing.Point(6, 31)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.ScrollAlwaysVisible = True
+        Me.ListBox1.Size = New System.Drawing.Size(480, 95)
+        Me.ListBox1.TabIndex = 7
+        '
         'MetroLink4
         '
-        Me.MetroLink4.Location = New System.Drawing.Point(385, 40)
+        Me.MetroLink4.Location = New System.Drawing.Point(388, 165)
         Me.MetroLink4.Name = "MetroLink4"
         Me.MetroLink4.Size = New System.Drawing.Size(98, 23)
         Me.MetroLink4.TabIndex = 6
@@ -315,34 +351,25 @@ Partial Class Form1
         '
         'MetroLink3
         '
-        Me.MetroLink3.Location = New System.Drawing.Point(258, 40)
+        Me.MetroLink3.Location = New System.Drawing.Point(189, 165)
         Me.MetroLink3.Name = "MetroLink3"
         Me.MetroLink3.Size = New System.Drawing.Size(98, 23)
         Me.MetroLink3.TabIndex = 5
         Me.MetroLink3.Text = "Developer"
         Me.MetroLink3.UseSelectable = True
         '
-        'MetroLink2
-        '
-        Me.MetroLink2.Location = New System.Drawing.Point(124, 40)
-        Me.MetroLink2.Name = "MetroLink2"
-        Me.MetroLink2.Size = New System.Drawing.Size(98, 23)
-        Me.MetroLink2.TabIndex = 4
-        Me.MetroLink2.Text = "Report Bugs"
-        Me.MetroLink2.UseSelectable = True
-        '
         'MetroLabel4
         '
         Me.MetroLabel4.AutoSize = True
-        Me.MetroLabel4.Location = New System.Drawing.Point(107, 9)
+        Me.MetroLabel4.Location = New System.Drawing.Point(0, 9)
         Me.MetroLabel4.Name = "MetroLabel4"
-        Me.MetroLabel4.Size = New System.Drawing.Size(238, 19)
+        Me.MetroLabel4.Size = New System.Drawing.Size(43, 19)
         Me.MetroLabel4.TabIndex = 3
-        Me.MetroLabel4.Text = "Counter-Strike: Source Server Launcher"
+        Me.MetroLabel4.Text = "Status"
         '
         'MetroLink1
         '
-        Me.MetroLink1.Location = New System.Drawing.Point(6, 40)
+        Me.MetroLink1.Location = New System.Drawing.Point(6, 165)
         Me.MetroLink1.Name = "MetroLink1"
         Me.MetroLink1.Size = New System.Drawing.Size(98, 23)
         Me.MetroLink1.TabIndex = 2
@@ -380,11 +407,11 @@ Partial Class Form1
     Friend WithEvents MetroTabPage1 As MetroFramework.Controls.MetroTabPage
     Friend WithEvents MetroButton3 As MetroFramework.Controls.MetroButton
     Friend WithEvents MetroLabel3 As MetroFramework.Controls.MetroLabel
-    Friend WithEvents MetroCheckBox2 As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents MetroCheckbox2 As MetroFramework.Controls.MetroCheckBox
     Friend WithEvents MetroTextBox2 As MetroFramework.Controls.MetroTextBox
     Friend WithEvents MetroButton2 As MetroFramework.Controls.MetroButton
     Friend WithEvents MetroLabel2 As MetroFramework.Controls.MetroLabel
-    Friend WithEvents MetroCheckBox1 As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents MetroCheckbox1 As MetroFramework.Controls.MetroCheckBox
     Friend WithEvents MetroTextBox1 As MetroFramework.Controls.MetroTextBox
     Friend WithEvents MetroButton1 As MetroFramework.Controls.MetroButton
     Friend WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
@@ -399,5 +426,7 @@ Partial Class Form1
     Friend WithEvents MetroLabel4 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLink4 As MetroFramework.Controls.MetroLink
     Friend WithEvents MetroLink3 As MetroFramework.Controls.MetroLink
-    Friend WithEvents MetroLink2 As MetroFramework.Controls.MetroLink
+    Friend WithEvents MetroTile2 As MetroFramework.Controls.MetroTile
+    Friend WithEvents MetroLabel5 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents ListBox1 As ListBox
 End Class
