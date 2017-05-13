@@ -1,6 +1,9 @@
 ﻿Imports MetroFramework
+'Notes Field
+'Bugs: White Style and its forecolors.
 Public Class Form2
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
+        'This part must reduce "IF" expressions
         If MetroComboBox1.Text = "" Then
             MessageBox.Show("Please select your theme", "Theme Manager", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
         End If
@@ -22,7 +25,6 @@ Public Class Form2
         Me.StyleManager = MetroStyleManager1
         MinimizeBox = False
         MaximizeBox = False
-
     End Sub
 
     Protected Overrides Sub OnFormClosing(ByVal e As FormClosingEventArgs)
@@ -34,6 +36,9 @@ Public Class Form2
     End Sub
 
     Private Sub MetroButton2_Click(sender As Object, e As EventArgs) Handles MetroButton2.Click
+        'This part must have at least fewer codes than the original
+        'Must Reduce "IF" expressions
+        'Will modify, as soon as I have the time
         If MetroComboBox2.Text = "Default" Then
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Default
             MetroStyleManager1.Style = MetroColorStyle.Default
@@ -97,13 +102,15 @@ Public Class Form2
     End Sub
 
     Private Sub MetroButton3_Click(sender As Object, e As EventArgs) Handles MetroButton3.Click
+        'Part is modified
+        'Status is ok
         If MetroComboBox3.Text = "Dark + White" Then
             My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.White
             MetroStyleManager1.Theme = MetroThemeStyle.Dark
             MetroStyleManager1.Style = MetroColorStyle.White
-        End If
-        If MetroComboBox3.Text = "Default" Then
+        Else
+            MetroComboBox3.Text = "Default"
             My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Default
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Default
             MetroStyleManager1.Theme = MetroThemeStyle.Default
@@ -115,3 +122,5 @@ Public Class Form2
 
     End Sub
 End Class
+'report if there are errors in assigning codes
+' Form1 > Options Tab > Report Bug
