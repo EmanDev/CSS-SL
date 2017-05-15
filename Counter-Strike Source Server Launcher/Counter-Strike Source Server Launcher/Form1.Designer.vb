@@ -202,6 +202,8 @@ Partial Class Form1
         'MetroCheckbox1
         '
         Me.MetroCheckbox1.AutoSize = True
+        Me.MetroCheckbox1.Checked = Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default.chk1
+        Me.MetroCheckbox1.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default, "chk1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.MetroCheckbox1.Location = New System.Drawing.Point(129, 60)
         Me.MetroCheckbox1.Name = "MetroCheckbox1"
         Me.MetroCheckbox1.Size = New System.Drawing.Size(130, 15)
