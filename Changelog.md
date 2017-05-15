@@ -9,8 +9,12 @@
 - 'Remember Location'
 - Starting Tab
 
+• NEW • 
+
 05/13/2017
 • Added ListBox
 • Replaces original objects to new
-- NEW -
 • Reduced 'If' expressions in codes
+
+05/17/2017
+• Fixed Remember Location
