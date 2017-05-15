@@ -17,4 +17,5 @@
 • Reduced 'If' expressions in codes
 
 05/17/2017
+• Changed Icon
 • Fixed Remember Location

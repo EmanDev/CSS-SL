@@ -18,6 +18,7 @@ Download the latest CSS Server Launcher [here](https://github.com/EmanzzKie/Coun
 [Downloads](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher#downloads) will be outdated but will be announced updated. Releases will be scheduled here.
 
 Release: 04/17/2017 - Includes changes
+Next Release: 05/17/2017 - Includes Changes
 
 ### Requirements
 

@@ -1,5 +1,4 @@
-﻿'Import References Here
-Imports MetroFramework
+﻿Imports MetroFramework
 Imports System.Windows.Forms
 Imports System.ComponentModel
 Imports System.Windows.Forms.CheckState
