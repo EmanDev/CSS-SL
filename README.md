@@ -47,7 +47,7 @@ Visual Basic
 
 ## Built With
 
-* Visual Studio 2̶0̶1̶5̶ 2017
+* Visual Studio 2017
 * Visual Studio Code
 * Notepad++
 
