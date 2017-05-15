@@ -2,7 +2,8 @@
 Imports MetroFramework
 Imports System.Windows.Forms
 Imports System.ComponentModel
-
+'Notes:
+'--
 Public Class Form1
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
         Dim path As New Object
@@ -17,6 +18,8 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.StyleManager = MetroStyleManager1
+        MetroTextBox1.WaterMark = "srcds.exe location"
+        MetroTextBox2.WaterMark = "Parameters"
     End Sub
 
     Private Sub MetroCheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles MetroCheckbox2.CheckedChanged
@@ -72,8 +75,8 @@ Public Class Form1
     Private Sub MetroButton2_Click(sender As Object, e As EventArgs) Handles MetroButton2.Click
         Dim srcds As New ProcessStartInfo
         srcds.FileName = MetroTextBox1.Text
-        srcds.Arguments = MetroTextBox2.Text
-        srcds.UseShellExecute = True
+            srcds.Arguments = MetroTextBox2.Text
+            srcds.UseShellExecute = True
         Dim proc As Process = Process.Start(srcds)
     End Sub
 
@@ -116,6 +119,6 @@ Public Class Form1
     End Sub
 
     Private Sub MetroTile2_Click(sender As Object, e As EventArgs) Handles MetroTile2.Click
-
+        Process.Start("https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/issues")
     End Sub
 End Class

@@ -66,7 +66,7 @@ Partial Class Form1
         Me.MetroTabControl1.Controls.Add(Me.MetroTabPage3)
         Me.MetroTabControl1.Location = New System.Drawing.Point(13, 63)
         Me.MetroTabControl1.Name = "MetroTabControl1"
-        Me.MetroTabControl1.SelectedIndex = 1
+        Me.MetroTabControl1.SelectedIndex = 0
         Me.MetroTabControl1.Size = New System.Drawing.Size(494, 244)
         Me.MetroTabControl1.TabIndex = 0
         Me.MetroTabControl1.UseSelectable = True
@@ -169,7 +169,6 @@ Partial Class Form1
         Me.MetroTextBox2.MaxLength = 32767
         Me.MetroTextBox2.Name = "MetroTextBox2"
         Me.MetroTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        'Me.MetroTextBox2.PromptText = "Parameters"
         Me.MetroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None
         Me.MetroTextBox2.SelectedText = ""
         Me.MetroTextBox2.SelectionLength = 0
@@ -179,7 +178,6 @@ Partial Class Form1
         Me.MetroTextBox2.Size = New System.Drawing.Size(357, 23)
         Me.MetroTextBox2.TabIndex = 8
         Me.MetroTextBox2.UseSelectable = True
-        Me.MetroTextBox2.WaterMark = "Parameters"
         Me.MetroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.MetroTextBox2.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
         '
@@ -230,7 +228,6 @@ Partial Class Form1
         Me.MetroTextBox1.MaxLength = 32767
         Me.MetroTextBox1.Name = "MetroTextBox1"
         Me.MetroTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        'Me.MetroTextBox1.PromptText = "srcds.exe location"
         Me.MetroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None
         Me.MetroTextBox1.SelectedText = ""
         Me.MetroTextBox1.SelectionLength = 0
@@ -240,7 +237,6 @@ Partial Class Form1
         Me.MetroTextBox1.Size = New System.Drawing.Size(357, 23)
         Me.MetroTextBox1.TabIndex = 4
         Me.MetroTextBox1.UseSelectable = True
-        Me.MetroTextBox1.WaterMark = "srcds.exe location"
         Me.MetroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.MetroTextBox1.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
         '

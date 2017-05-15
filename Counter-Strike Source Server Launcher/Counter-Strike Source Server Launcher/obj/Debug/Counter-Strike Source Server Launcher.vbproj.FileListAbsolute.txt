@@ -28,3 +28,4 @@ C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-St
 C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter_Strike_Source_Server_Launcher.Form2.resources
 C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter_Strike_Source_Server_Launcher.Resources.resources
 C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter-Strike Source Server Launcher.vbproj.GenerateResource.Cache
+C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter_Strike_Source_Server_Launcher.Form3.resources
