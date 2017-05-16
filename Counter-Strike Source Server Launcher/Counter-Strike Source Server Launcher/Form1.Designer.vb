@@ -126,7 +126,7 @@ Partial Class Form1
         '
         Me.MetroButton3.Location = New System.Drawing.Point(437, 169)
         Me.MetroButton3.Name = "MetroButton3"
-        Me.MetroButton3.Size = New System.Drawing.Size(48, 33)
+        Me.MetroButton3.Size = New System.Drawing.Size(48, 30)
         Me.MetroButton3.TabIndex = 12
         Me.MetroButton3.Text = "Set"
         Me.MetroButton3.UseSelectable = True
@@ -329,9 +329,8 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"Bugs: ", "Remember Location not working properly.", "Forecolor of texts in forms doesn't change to dark once white style has been appl" &
-                "ied.", "", "Possible Fixes:", "Remeber Location - Not yet, will remove on the next build", "Forecolors - Will remove White Style from Theme Manager untill forecolors are fix" &
-                "ed"})
+        Me.ListBox1.Items.AddRange(New Object() {"Bugs: ", "Forecolor of texts in forms doesn't change to dark once white style has been appl" &
+                "ied."})
         Me.ListBox1.Location = New System.Drawing.Point(6, 31)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True
@@ -340,7 +339,7 @@ Partial Class Form1
         '
         'MetroLink4
         '
-        Me.MetroLink4.Location = New System.Drawing.Point(388, 165)
+        Me.MetroLink4.Location = New System.Drawing.Point(392, 165)
         Me.MetroLink4.Name = "MetroLink4"
         Me.MetroLink4.Size = New System.Drawing.Size(98, 23)
         Me.MetroLink4.TabIndex = 6
@@ -349,7 +348,7 @@ Partial Class Form1
         '
         'MetroLink3
         '
-        Me.MetroLink3.Location = New System.Drawing.Point(189, 165)
+        Me.MetroLink3.Location = New System.Drawing.Point(190, 165)
         Me.MetroLink3.Name = "MetroLink3"
         Me.MetroLink3.Size = New System.Drawing.Size(98, 23)
         Me.MetroLink3.TabIndex = 5
