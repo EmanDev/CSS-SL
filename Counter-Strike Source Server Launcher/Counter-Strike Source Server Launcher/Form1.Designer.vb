@@ -143,7 +143,7 @@ Partial Class Form1
         'MetroCheckbox2
         '
         Me.MetroCheckbox2.AutoSize = True
-        Me.MetroCheckbox2.Location = New System.Drawing.Point(265, 60)
+        Me.MetroCheckbox2.Location = New System.Drawing.Point(243, 60)
         Me.MetroCheckbox2.Name = "MetroCheckbox2"
         Me.MetroCheckbox2.Size = New System.Drawing.Size(149, 15)
         Me.MetroCheckbox2.TabIndex = 9
@@ -206,9 +206,9 @@ Partial Class Form1
         Me.MetroCheckbox1.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default, "chk1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.MetroCheckbox1.Location = New System.Drawing.Point(129, 60)
         Me.MetroCheckbox1.Name = "MetroCheckbox1"
-        Me.MetroCheckbox1.Size = New System.Drawing.Size(130, 15)
+        Me.MetroCheckbox1.Size = New System.Drawing.Size(108, 15)
         Me.MetroCheckbox1.TabIndex = 5
-        Me.MetroCheckbox1.Text = "Remember Location"
+        Me.MetroCheckbox1.Text = "Remember Path"
         Me.MetroCheckbox1.UseSelectable = True
         '
         'MetroTextBox1
@@ -329,8 +329,8 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"Bugs: ", "Forecolor of texts in forms doesn't change to dark once white style has been appl" &
-                "ied."})
+        Me.ListBox1.Items.AddRange(New Object() {"Bugs: ", "Remember Theme is disabled will define in a couple days before June hits.", "Forecolor of texts in forms doesn't change to dark once white style has been appl" &
+                "ied.", "", "Notes:", "2-3 releases remaining including tomorrow."})
         Me.ListBox1.Location = New System.Drawing.Point(6, 31)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True

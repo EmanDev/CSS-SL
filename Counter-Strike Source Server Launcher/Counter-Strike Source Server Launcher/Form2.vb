@@ -25,6 +25,7 @@ Public Class Form2
         Me.StyleManager = MetroStyleManager1
         MinimizeBox = False
         MaximizeBox = False
+        MetroCheckBox1.Enabled = False
     End Sub
 
     Protected Overrides Sub OnFormClosing(ByVal e As FormClosingEventArgs)
