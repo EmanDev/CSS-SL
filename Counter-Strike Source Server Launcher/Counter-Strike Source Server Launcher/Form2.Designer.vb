@@ -35,6 +35,7 @@ Partial Class Form2
         Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
         Me.MetroComboBox3 = New MetroFramework.Controls.MetroComboBox()
         Me.MetroButton3 = New MetroFramework.Controls.MetroButton()
+        Me.MetroCheckBox1 = New MetroFramework.Controls.MetroCheckBox()
         CType(Me.MetroStyleManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -74,7 +75,7 @@ Partial Class Form2
         'MetroLabel2
         '
         Me.MetroLabel2.AutoSize = True
-        Me.MetroLabel2.Location = New System.Drawing.Point(23, 133)
+        Me.MetroLabel2.Location = New System.Drawing.Point(23, 123)
         Me.MetroLabel2.Name = "MetroLabel2"
         Me.MetroLabel2.Size = New System.Drawing.Size(41, 19)
         Me.MetroLabel2.TabIndex = 3
@@ -85,7 +86,7 @@ Partial Class Form2
         Me.MetroComboBox2.FormattingEnabled = True
         Me.MetroComboBox2.ItemHeight = 23
         Me.MetroComboBox2.Items.AddRange(New Object() {"Default", "Black", "White", "Silver", "Blue", "Green", "Lime", "Teal", "Orange", "Brown", "Pink", "Magenta", "Purple", "Red", "Yellow"})
-        Me.MetroComboBox2.Location = New System.Drawing.Point(23, 155)
+        Me.MetroComboBox2.Location = New System.Drawing.Point(23, 145)
         Me.MetroComboBox2.Name = "MetroComboBox2"
         Me.MetroComboBox2.Size = New System.Drawing.Size(438, 29)
         Me.MetroComboBox2.TabIndex = 4
@@ -93,7 +94,7 @@ Partial Class Form2
         '
         'MetroButton2
         '
-        Me.MetroButton2.Location = New System.Drawing.Point(467, 155)
+        Me.MetroButton2.Location = New System.Drawing.Point(467, 145)
         Me.MetroButton2.Name = "MetroButton2"
         Me.MetroButton2.Size = New System.Drawing.Size(109, 29)
         Me.MetroButton2.TabIndex = 5
@@ -103,7 +104,7 @@ Partial Class Form2
         'MetroLabel3
         '
         Me.MetroLabel3.AutoSize = True
-        Me.MetroLabel3.Location = New System.Drawing.Point(23, 203)
+        Me.MetroLabel3.Location = New System.Drawing.Point(23, 193)
         Me.MetroLabel3.Name = "MetroLabel3"
         Me.MetroLabel3.Size = New System.Drawing.Size(103, 19)
         Me.MetroLabel3.TabIndex = 6
@@ -114,7 +115,7 @@ Partial Class Form2
         Me.MetroComboBox3.FormattingEnabled = True
         Me.MetroComboBox3.ItemHeight = 23
         Me.MetroComboBox3.Items.AddRange(New Object() {"Default", "Dark + White"})
-        Me.MetroComboBox3.Location = New System.Drawing.Point(23, 225)
+        Me.MetroComboBox3.Location = New System.Drawing.Point(23, 215)
         Me.MetroComboBox3.Name = "MetroComboBox3"
         Me.MetroComboBox3.Size = New System.Drawing.Size(438, 29)
         Me.MetroComboBox3.TabIndex = 7
@@ -122,18 +123,29 @@ Partial Class Form2
         '
         'MetroButton3
         '
-        Me.MetroButton3.Location = New System.Drawing.Point(467, 225)
+        Me.MetroButton3.Location = New System.Drawing.Point(467, 215)
         Me.MetroButton3.Name = "MetroButton3"
         Me.MetroButton3.Size = New System.Drawing.Size(109, 29)
         Me.MetroButton3.TabIndex = 8
         Me.MetroButton3.Text = "Apply"
         Me.MetroButton3.UseSelectable = True
         '
+        'MetroCheckBox1
+        '
+        Me.MetroCheckBox1.AutoSize = True
+        Me.MetroCheckBox1.Location = New System.Drawing.Point(23, 253)
+        Me.MetroCheckBox1.Name = "MetroCheckBox1"
+        Me.MetroCheckBox1.Size = New System.Drawing.Size(121, 15)
+        Me.MetroCheckBox1.TabIndex = 9
+        Me.MetroCheckBox1.Text = "Remember Theme"
+        Me.MetroCheckBox1.UseSelectable = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(599, 291)
+        Me.Controls.Add(Me.MetroCheckBox1)
         Me.Controls.Add(Me.MetroButton3)
         Me.Controls.Add(Me.MetroComboBox3)
         Me.Controls.Add(Me.MetroLabel3)
@@ -164,4 +176,5 @@ Partial Class Form2
     Friend WithEvents MetroLabel2 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroComboBox1 As MetroFramework.Controls.MetroComboBox
+    Friend WithEvents MetroCheckBox1 As MetroFramework.Controls.MetroCheckBox
 End Class
