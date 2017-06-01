@@ -12,10 +12,10 @@
 • NEW • 
 
 05/13/2017
-• Added ListBox
-• Replaces original objects to new
-• Reduced 'If' expressions in codes
+- Added ListBox
+- Replaces original objects to new
+- Reduced 'If' expressions in codes
 
 05/17/2017
-• Changed Icon
-• Fixed Remember Location
+- Changed Icon
+- Fixed Remember Location
