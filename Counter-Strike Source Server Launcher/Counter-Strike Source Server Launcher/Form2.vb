@@ -1,11 +1,27 @@
 ﻿Imports MetroFramework
+Imports System.Windows.Forms.CheckState
+Imports System.Windows.Forms
+Imports MetroFramework.Forms
+
 'Notes Field
 'Bugs: White Style and its forecolors.
 Public Class Form2
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
+        'New properties
+        'Constructing
+        'If MetroComboBox1.SelectedIndex > -1 Then
+        'Dim sindex As New Integer
+        'sindex = MetroComboBox1.SelectedIndex
+        'Dim sitem As Object
+        'sitem = MetroComboBox1.SelectedItem
+        'insert code here for theme changes
+        'MetroComboBox1.SelectedItem.ToString()
+        'End If
+        'Old properties
         'This part must reduce "IF" expressions
         If MetroComboBox1.Text = "" Then
-            MessageBox.Show("Please select your theme", "Theme Manager", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+            'MessageBox.Show("Please select your theme", "Theme Manager", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+            MetroMessageBox.Show(Me, "Please select your theme.", "Theme Manager", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
         If MetroComboBox1.Text = "Dark" Then
             My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
@@ -25,7 +41,7 @@ Public Class Form2
         Me.StyleManager = MetroStyleManager1
         MinimizeBox = False
         MaximizeBox = False
-        MetroCheckBox1.Enabled = False
+        MetroCheckBox1.Enabled = True
     End Sub
 
     Protected Overrides Sub OnFormClosing(ByVal e As FormClosingEventArgs)
@@ -37,6 +53,9 @@ Public Class Form2
     End Sub
 
     Private Sub MetroButton2_Click(sender As Object, e As EventArgs) Handles MetroButton2.Click
+        If MetroComboBox2.Text = "" Then
+            MetroMessageBox.Show(Me, "Please select your style.", "Theme Manager", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
         'This part must have at least fewer codes than the original
         'Must Reduce "IF" expressions
         'Will modify, as soon as I have the time
@@ -103,8 +122,9 @@ Public Class Form2
     End Sub
 
     Private Sub MetroButton3_Click(sender As Object, e As EventArgs) Handles MetroButton3.Click
-        'Part is modified
-        'Status is ok
+        If MetroComboBox3.Text = "" Then
+            MetroMessageBox.Show(Me, "Please select your custom theme.", "Theme Manager", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
         If MetroComboBox3.Text = "Dark + White" Then
             My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.White
@@ -120,6 +140,10 @@ Public Class Form2
     End Sub
 
     Private Sub MetroComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetroComboBox2.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub MetroCheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles MetroCheckBox1.CheckedChanged
 
     End Sub
 End Class

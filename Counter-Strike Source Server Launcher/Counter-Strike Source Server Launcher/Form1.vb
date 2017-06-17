@@ -19,12 +19,15 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.StyleManager = MetroStyleManager1
+        M01e.StyleManager = MetroStyleManager1
         MetroTextBox1.WaterMark = "srcds.exe location"
         MetroTextBox2.WaterMark = "Parameters"
         If MetroCheckbox1.Checked = True Then
             MetroTextBox1.Text = My.Settings.path
         End If
+        'form2 saving theme porperties
+        Dim themeset As New Object
+        themeset = My.Forms.Form2.MetroCheckBox1
     End Sub
 
     Private Sub MetroCheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles MetroCheckbox2.CheckedChanged
@@ -132,8 +135,22 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+        'form1 on-closing saving properties
         If MetroCheckbox1.Checked = True Then
             My.Settings.path = MetroTextBox1.Text
+            My.Settings.Save()
+        End If
+        'form2 on-closing saving properties
+        If My.Forms.Form2.MetroCheckBox1.Checked = True Then
+            My.Settings.OPtheme1 = My.Forms.Form2.MetroComboBox1.Text
+            My.Settings.THs1 = My.Forms.Form2.MetroComboBox3.Text
+            My.Settings.style1 = My.Forms.Form2.MetroComboBox2.Text
+            My.Settings.Save()
+        End If
+        If My.Forms.Form2.MetroCheckBox2.Checked = True Then
+            My.Forms.Form2.MetroButton1.PerformClick()
+            My.Forms.Form2.MetroButton2.PerformClick()
+            My.Forms.Form2.MetroButton3.PerformClick()
             My.Settings.Save()
         End If
     End Sub

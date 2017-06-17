@@ -8,6 +8,11 @@ Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a vb.net progra
 2. Form is theme supported.
 3. Works both for x86 and x64 bit systems.
 
+## Status
+
+1. 2 New features are added
+2. The features are still not working but will function fine after few more tweaks.
+
 ## Downloads
 
 • UPDATED!

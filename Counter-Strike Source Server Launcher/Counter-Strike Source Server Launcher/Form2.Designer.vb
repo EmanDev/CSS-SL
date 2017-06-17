@@ -35,6 +35,7 @@ Partial Class Form2
         Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
         Me.MetroComboBox3 = New MetroFramework.Controls.MetroComboBox()
         Me.MetroButton3 = New MetroFramework.Controls.MetroButton()
+        Me.MetroCheckBox2 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroCheckBox1 = New MetroFramework.Controls.MetroCheckBox()
         CType(Me.MetroStyleManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -130,9 +131,23 @@ Partial Class Form2
         Me.MetroButton3.Text = "Apply"
         Me.MetroButton3.UseSelectable = True
         '
+        'MetroCheckBox2
+        '
+        Me.MetroCheckBox2.AutoSize = True
+        Me.MetroCheckBox2.Checked = Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default.applytheme
+        Me.MetroCheckBox2.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default, "applytheme", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.MetroCheckBox2.Location = New System.Drawing.Point(161, 253)
+        Me.MetroCheckBox2.Name = "MetroCheckBox2"
+        Me.MetroCheckBox2.Size = New System.Drawing.Size(130, 15)
+        Me.MetroCheckBox2.TabIndex = 10
+        Me.MetroCheckBox2.Text = "Apply theme at start"
+        Me.MetroCheckBox2.UseSelectable = True
+        '
         'MetroCheckBox1
         '
         Me.MetroCheckBox1.AutoSize = True
+        Me.MetroCheckBox1.Checked = Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default.theme1
+        Me.MetroCheckBox1.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default, "theme1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.MetroCheckBox1.Location = New System.Drawing.Point(23, 253)
         Me.MetroCheckBox1.Name = "MetroCheckBox1"
         Me.MetroCheckBox1.Size = New System.Drawing.Size(121, 15)
@@ -145,6 +160,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(599, 291)
+        Me.Controls.Add(Me.MetroCheckBox2)
         Me.Controls.Add(Me.MetroCheckBox1)
         Me.Controls.Add(Me.MetroButton3)
         Me.Controls.Add(Me.MetroComboBox3)
@@ -177,4 +193,5 @@ Partial Class Form2
     Friend WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroComboBox1 As MetroFramework.Controls.MetroComboBox
     Friend WithEvents MetroCheckBox1 As MetroFramework.Controls.MetroCheckBox
+    Friend WithEvents MetroCheckBox2 As MetroFramework.Controls.MetroCheckBox
 End Class

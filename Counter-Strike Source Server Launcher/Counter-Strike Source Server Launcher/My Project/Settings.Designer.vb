@@ -77,6 +77,66 @@ Namespace My
                 Me("chk1") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property theme1() As Boolean
+            Get
+                Return CType(Me("theme1"),Boolean)
+            End Get
+            Set
+                Me("theme1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property OPtheme1() As String
+            Get
+                Return CType(Me("OPtheme1"),String)
+            End Get
+            Set
+                Me("OPtheme1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property style1() As String
+            Get
+                Return CType(Me("style1"),String)
+            End Get
+            Set
+                Me("style1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property THs1() As String
+            Get
+                Return CType(Me("THs1"),String)
+            End Get
+            Set
+                Me("THs1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property applytheme() As Boolean
+            Get
+                Return CType(Me("applytheme"),Boolean)
+            End Get
+            Set
+                Me("applytheme") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

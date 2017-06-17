@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Counter-Strike Source Server Launcher.exe" size="123864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Counter-Strike Source Server Launcher.exe" size="125912">
       <assemblyIdentity name="Counter-Strike Source Server Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UyiLfX/8iJtRgm7q/sZYgt0+vhV8P2xdySToUHiQamk=</dsig:DigestValue>
+        <dsig:DigestValue>JUJcmnqgpQ3wK/fpozsxsLAvKPBP9bwwyF8EMBWqReg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,13 +90,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Counter-Strike Source Server Launcher.exe.config" size="1092">
+  <file name="Counter-Strike Source Server Launcher.exe.config" size="1663">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>BGldwBiGsXqd5EkUag/JUky4EVfZdkL3Y8QdLN+XLwM=</dsig:DigestValue>
+      <dsig:DigestValue>vyOT/xVd6ls0mSTRe9VYjy/gI8toTop0lO3IeB5sd8Y=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VSProjectApplication.ico" size="41395">
