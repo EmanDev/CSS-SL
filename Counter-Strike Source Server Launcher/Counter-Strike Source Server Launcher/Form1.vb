@@ -107,15 +107,15 @@ Public Class Form1
 
     End Sub
     Private Sub MetroLink3_Click(sender As Object, e As EventArgs) Handles MetroLink3.Click
-        Process.Start("https://github.com/EmanzzKie")
+        Process.Start("https://github.com/EmanDev")
     End Sub
 
     Private Sub MetroLink4_Click(sender As Object, e As EventArgs) Handles MetroLink4.Click
-        Process.Start("http://emzzdroidpro.weebly.com/")
+        Process.Start("http://themonochrome.weebly.com/")
     End Sub
 
     Private Sub MetroLink1_Click(sender As Object, e As EventArgs) Handles MetroLink1.Click
-        Process.Start("https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/blob/master/Changelog.md")
+        Process.Start("https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher/blob/master/Changelog.md")
     End Sub
 
     Private Sub Form1_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
@@ -127,7 +127,7 @@ Public Class Form1
     End Sub
 
     Private Sub MetroTile2_Click(sender As Object, e As EventArgs) Handles MetroTile2.Click
-        Process.Start("https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/issues")
+        Process.Start("https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher/issues")
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
