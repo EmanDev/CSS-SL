@@ -6,13 +6,16 @@ Imports System.Windows.Forms.CheckState
 'Notes:
 'Do some cleanup and reduce IF expresions
 'fix some bugs
-'06/30/2017 -cleanup old code to > ./restore_point/June 30, 2017/Form1.vb
 Public Class Form1
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
         Dim path As New Object
         path = MetroTextBox1
         OpenFileDialog1.ShowDialog()
         path.text = OpenFileDialog1.FileName
+        'Original Code Below
+        'Change to original if errors/bugs occurs
+        'OpenFileDialog1.ShowDialog()
+        'MetroTextBox1.Text = OpenFileDialog1.FileName
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -22,7 +25,7 @@ Public Class Form1
         If MetroCheckbox1.Checked = True Then
             MetroTextBox1.Text = My.Settings.path
         End If
-        'form2 saving theme properties
+        'form2 saving theme porperties
         Dim themeset As New Object
         themeset = My.Forms.Form2.MetroCheckBox1
     End Sub
@@ -37,6 +40,13 @@ Public Class Form1
         Else
             path.readonly = False
         End If
+        'Original Code Below
+        'Change to original if errors/bugs occurs
+        'If MetroCheckbox2.Checked Then
+        'MetroTextBox1.ReadOnly = True
+        'Else
+        'MetroTextBox1.ReadOnly = False
+        'End If
     End Sub
 
     Private Sub MetroButton4_Click(sender As Object, e As EventArgs)
@@ -60,6 +70,14 @@ Public Class Form1
             dpm.checked = False
             MetroTextBox2.Text = ""
         End If
+        'Original code below
+        'Change to original if error/bugs occurs
+        'If MetroCheckBox3.Checked = True Then
+        'MetroTextBox2.Text = "-console -game cstrike -autoupdate -port 27015 -tickrate 100 +sv_lan 1 +map de_dust +maxplayers 32"
+        'Else
+        'MetroCheckBox3.Checked = False
+        'MetroTextBox2.Text = ""
+        'End If
     End Sub
 
     Private Sub MetroButton2_Click(sender As Object, e As EventArgs) Handles MetroButton2.Click

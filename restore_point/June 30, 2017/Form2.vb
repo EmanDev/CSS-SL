@@ -5,7 +5,6 @@ Imports MetroFramework.Forms
 
 'Notes Field
 'Bugs: White Style and its forecolors.
-'06/30/2017 -cleanup old code to > ./restore_point/June 30, 2017/Form2.vb
 Public Class Form2
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
         'New properties

@@ -115,7 +115,7 @@ Partial Class Form2
         '
         Me.MetroComboBox3.FormattingEnabled = True
         Me.MetroComboBox3.ItemHeight = 23
-        Me.MetroComboBox3.Items.AddRange(New Object() {"Default", "Dark + White"})
+        Me.MetroComboBox3.Items.AddRange(New Object() {"Default"})
         Me.MetroComboBox3.Location = New System.Drawing.Point(23, 215)
         Me.MetroComboBox3.Name = "MetroComboBox3"
         Me.MetroComboBox3.Size = New System.Drawing.Size(438, 29)
