@@ -32,3 +32,4 @@ C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-St
 C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\bin\Debug\Counter-Strike Source Server Launcher.application
 C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter-Strike Source Server Launcher.exe.manifest
 C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter-Strike Source Server Launcher.application
+C:\Users\Eman\Documents\GitHub\Counter-Strike--Source-Server-Launcher\Counter-Strike Source Server Launcher\Counter-Strike Source Server Launcher\obj\Debug\Counter-Strike Source Server Launcher.vbproj.CoreCompileInputs.cache

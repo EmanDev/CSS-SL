@@ -86,7 +86,7 @@ Partial Class Form2
         '
         Me.MetroComboBox2.FormattingEnabled = True
         Me.MetroComboBox2.ItemHeight = 23
-        Me.MetroComboBox2.Items.AddRange(New Object() {"Default", "Black", "White", "Silver", "Blue", "Green", "Lime", "Teal", "Orange", "Brown", "Pink", "Magenta", "Purple", "Red", "Yellow"})
+        Me.MetroComboBox2.Items.AddRange(New Object() {"Default", "Black", "Silver", "Blue", "Green", "Lime", "Teal", "Orange", "Brown", "Pink", "Magenta", "Purple", "Red", "Yellow"})
         Me.MetroComboBox2.Location = New System.Drawing.Point(23, 145)
         Me.MetroComboBox2.Name = "MetroComboBox2"
         Me.MetroComboBox2.Size = New System.Drawing.Size(438, 29)
@@ -115,7 +115,7 @@ Partial Class Form2
         '
         Me.MetroComboBox3.FormattingEnabled = True
         Me.MetroComboBox3.ItemHeight = 23
-        Me.MetroComboBox3.Items.AddRange(New Object() {"Default"})
+        Me.MetroComboBox3.Items.AddRange(New Object() {"Default", "Light + Black", "Light + Silver", "Light + Blue", "Light + Green", "Light + Lime", "Light + Teal", "Light + Orange", "Light + Brown", "Light + Pink", "Light + Magenta", "Light + Purple", "Light + Red", "Light + Yellow", "Dark + Black", "Dark + Silver", "Dark + Blue", "Dark + Green", "Dark + Lime", "Dark + Teal", "Dark + Orange", "Dark + Brown", "Dark + Pink", "Dark + Magenta", "Dark + Purple", "Dark + Red", "Dark + Yellow"})
         Me.MetroComboBox3.Location = New System.Drawing.Point(23, 215)
         Me.MetroComboBox3.Name = "MetroComboBox3"
         Me.MetroComboBox3.Size = New System.Drawing.Size(438, 29)

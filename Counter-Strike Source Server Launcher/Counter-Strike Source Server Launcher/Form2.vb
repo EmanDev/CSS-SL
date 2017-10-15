@@ -42,7 +42,8 @@ Public Class Form2
         Me.StyleManager = MetroStyleManager1
         MinimizeBox = False
         MaximizeBox = False
-        MetroCheckBox1.Enabled = True
+        MetroCheckBox1.Enabled = False
+        MetroCheckBox2.Enabled = False
     End Sub
 
     Protected Overrides Sub OnFormClosing(ByVal e As FormClosingEventArgs)
@@ -67,10 +68,6 @@ Public Class Form2
         If MetroComboBox2.Text = "Black" Then
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Black
             MetroStyleManager1.Style = MetroColorStyle.Black
-        End If
-        If MetroComboBox2.Text = "White" Then
-            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.White
-            MetroStyleManager1.Style = MetroColorStyle.White
         End If
         If MetroComboBox2.Text = "Silver" Then
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Silver
@@ -132,6 +129,162 @@ Public Class Form2
             MetroStyleManager1.Theme = MetroThemeStyle.Default
             MetroStyleManager1.Style = MetroColorStyle.Default
         End If
+        If MetroComboBox3.Text = "Light + Black" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Black
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Black
+        End If
+        If MetroComboBox3.Text = "Light + Silver" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Silver
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Silver
+        End If
+        If MetroComboBox3.Text = "Light + Blue" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Blue
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Blue
+        End If
+        If MetroComboBox3.Text = "Light + Green" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Green
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Green
+        End If
+        If MetroComboBox3.Text = "Light + Lime" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Lime
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Lime
+        End If
+        If MetroComboBox3.Text = "Light + Teal" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Teal
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Teal
+        End If
+        If MetroComboBox3.Text = "Light + Orange" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Orange
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Orange
+        End If
+        If MetroComboBox3.Text = "Light + Brown" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Brown
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Brown
+        End If
+        If MetroComboBox3.Text = "Light + Pink" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Pink
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Pink
+        End If
+        If MetroComboBox3.Text = "Light + Magenta" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Magenta
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Magenta
+        End If
+        If MetroComboBox3.Text = "Light + Purple" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Purple
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Purple
+        End If
+        If MetroComboBox3.Text = "Light + Red" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Red
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Red
+        End If
+        If MetroComboBox3.Text = "Light + Yellow" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Yellow
+            MetroStyleManager1.Theme = MetroThemeStyle.Light
+            MetroStyleManager1.Style = MetroColorStyle.Yellow
+        End If
+        If MetroComboBox3.Text = "Dark + Black" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Black
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Black
+        End If
+        If MetroComboBox3.Text = "Dark + Silver" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Silver
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Silver
+        End If
+        If MetroComboBox3.Text = "Dark + Blue" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Blue
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Blue
+        End If
+        If MetroComboBox3.Text = "Dark + Green" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Green
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Green
+        End If
+        If MetroComboBox3.Text = "Dark + Lime" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Lime
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Lime
+        End If
+        If MetroComboBox3.Text = "Dark + Teal" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Teal
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Teal
+        End If
+        If MetroComboBox3.Text = "Dark + Orange" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Orange
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Orange
+        End If
+        If MetroComboBox3.Text = "Dark + Brown" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Brown
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Brown
+        End If
+        If MetroComboBox3.Text = "Dark + Pink" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Pink
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Pink
+        End If
+        If MetroComboBox3.Text = "Dark + Magenta" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Magenta
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Magenta
+        End If
+        If MetroComboBox3.Text = "Dark + Purple" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Purple
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Purple
+        End If
+        If MetroComboBox3.Text = "Dark + Red" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Red
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Red
+        End If
+        If MetroComboBox3.Text = "Dark + Yellow" Then
+            My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Yellow
+            MetroStyleManager1.Theme = MetroThemeStyle.Dark
+            MetroStyleManager1.Style = MetroColorStyle.Yellow
+        End If
     End Sub
 
     Private Sub MetroComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetroComboBox2.SelectedIndexChanged
@@ -139,6 +292,10 @@ Public Class Form2
     End Sub
 
     Private Sub MetroCheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles MetroCheckBox1.CheckedChanged
+
+    End Sub
+
+    Private Sub MetroCheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles MetroCheckBox2.CheckedChanged
 
     End Sub
 End Class
