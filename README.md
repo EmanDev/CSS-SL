@@ -16,13 +16,13 @@ See About within application
 • UPDATE - 20171015
 • Download the latest CSS Server Launcher [here](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/releases/tag/release).
 
-### Requirements
+## Requirements
 
 1. Windows 7 (or higher).
 2. Installed Counter-Strike: Source Dedicated Server.
 3. .Net Framework 3.5 and above.
 
-### Installing
+## Installing
 
 Extract it anywhere on your pc.
 
@@ -37,7 +37,7 @@ Extract it anywhere on your pc.
 
 Report [here](https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher/issues).
 
-### Programming Language/s Used
+## Programming Language/s Used
 
 Visual Basic
 
