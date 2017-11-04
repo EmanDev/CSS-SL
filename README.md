@@ -21,7 +21,7 @@ See "About" within application.
 
 1. Windows 7 (or higher).
 2. Installed Counter-Strike: Source Dedicated Server.
-3. .Net Framework 3.5 and above.
+3. Net Framework 3.5 and above.
 
 ## Installing
 
