@@ -9,7 +9,8 @@ Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a vb.net progra
 3. Works both for x86 and x64 bit systems.
 
 ## Status and Changelog
-See About within application
+
+See "About" within application.
 
 ## Downloads
 
@@ -28,8 +29,8 @@ Extract it anywhere on your pc.
 
 ## Deployment
 
-1. Open 'Counter-Strike Source Server Launcher" normally.
-2. Click on 'Find Target.
+1. Open "Counter-Strike Source Server Launcher" normally (if srcds is found within Windows, Program Files or Program Files x86 folders, run it as administrator).
+2. Click on "Find Target".
 3. Add your parameters.
 4. LAUNCH!
 
@@ -51,7 +52,7 @@ Visual Basic
 
 You can edit it yourself without my permision. But please credit me as source/author.
 
-> Changes in this file may get error while using it. If error occur, re-download the archive and extract and replace modified files.
+> Changes in this file may get error while using it. If error occur, re-download the archive and extract then replace modified files.
 
 ## Author
 [Emanzz Marcaida](https://github.com/EmanzzKie)
