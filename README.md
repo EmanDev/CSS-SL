@@ -15,15 +15,16 @@ Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a visual basic 
 
 ## Downloads
 
-• UPDATED!
+• UPDATED! 10/15/2017
 Download the latest CSS Server Launcher [here](https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher/releases).
 
 ### Releases
 
 [Downloads](https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher#downloads) will be outdated but will be announced updated. Releases will be scheduled here.
 
-1. Current Release: 04/17/2017 - CSS Server Launcher v1.1
-2. Next Release: 05/17/2017 - CSS Server Launcher v1.2
+1. Previous Release: 04/17/2017 - CSS Server Launcher v1.1
+2. Previous Release: 05/17/2017 - CSS Server Launcher v1.2
+3. Latest Release: 10/15/2017 - CSS Server Launcher v1.3
 
 ### Requirements
 
