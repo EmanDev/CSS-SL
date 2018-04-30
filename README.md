@@ -1,6 +1,6 @@
 # Counter-Strike: Source Server Launcher
 
-Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a vb.net program, personaly programmed by ME (see author). This will launch srcds efficiently.
+Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a visual basic program, personaly programmed by ME (see author). This will launch srcds efficiently.
 
 ## Features
 
