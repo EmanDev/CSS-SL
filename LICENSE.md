@@ -1,6 +1,6 @@
 Counter-Strike: Source Server Launcher - https://github.com/EmanzzKie/Counter-Strike--Source-Server-Launcher
 
-Copyright (c) 2017 Emanzz Marcaida - EmzzDroid Production™
+Copyright (c) 2017 Eman Marcaida
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
 this software and associated documentation files (the "Software"), to deal in the 
