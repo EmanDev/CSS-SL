@@ -1,0 +1,49 @@
+/* 
+
+Custom Styles by Eman Marcaida
+
+Repository: Counter-Strike: Source Dedicated Server
+
+*/
+html {
+	scroll-behavior: smooth;
+}
+
+a:hover {color: #fff;}
+
+img{
+	width: 85%;
+}
+
+.leftside, .rightside, .above-content{
+	height: 100vh;
+	width: 100%;
+
+}
+
+.leftside{
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.rightside{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.above-content{
+	background-image: url('../img/800252.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
