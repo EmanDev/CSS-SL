@@ -1,30 +1,19 @@
 # Counter-Strike: Source Server Launcher
 
-Counter-Strike: Source Server Launcher (CS:S Server Launcher) is a visual basic program, personally programmed by ME (see author). This will launch srcds efficiently.
+Counter-Strike: Source Server Launcher (CS:S-SL) is a a program written in Visual-Basic.NET that will launch Source Dedicated Sever (srcds.exe) efficiently.
 
 ## Features
 
-1. Modern UI.
-2. Form is theme supported.
-3. Works both for x86 and x64 bit systems.
-
-## Status
-
-1. 2 New features are added
-2. The features are still not working but will function fine after few more tweaks.
+1. Multi-functional - CS:S-SL supports multiple functional use for convenience.  This includes saving of srcds location, read only mode, pre-defined parameters, and custom user parameters. 
+2. Minimal - CS:S-SL is minimal and has theming capability that enables itself to be good-looking. This way the tool can match with your system's theme and color.
 
 ## Downloads
 
-• UPDATED! 10/15/2017
-Download the latest CSS Server Launcher [here](https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher/releases).
+Downloads are available [here](https://emandev.github.io/css-sl/).
 
-### Releases
+### Latest Version
 
-[Downloads](https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher#downloads) will be outdated but will be announced updated. Releases will be scheduled here.
-
-1. Previous Release: 04/17/2017 - CSS Server Launcher v1.1
-2. Previous Release: 05/17/2017 - CSS Server Launcher v1.2
-3. Latest Release: 10/15/2017 - CSS Server Launcher v1.3
+Latest version is Version 1.4
 
 ### Requirements
 
@@ -34,7 +23,7 @@ Download the latest CSS Server Launcher [here](https://github.com/EmanDev/Counte
 
 ### Installing
 
-Extract it anywhere on your pc.
+Extract it to any folder on your windows system along with the DLLs included in the archive then run the Executable file.
 
 ## Deployment
 
@@ -53,18 +42,19 @@ Visual Basic
 
 ## Built With
 
-* Visual Studio 2017
+* Visual Studio 2017 and Visual Studio 2015
 * Visual Studio Code
 * Notepad++
 
 ## Reminder
 
-You can edit it yourself without my permision. But please credit me as source/author.
+You can edit it yourself without my permission. But please credit me as source/author.
 
 > Changes in this file may get error while using it. If error occur, re-download the archive and extract and replace modified files.
 
 ## Author
-[Emanzz Marcaida](https://github.com/EmanDev)
+
+[Eman Marcaida](https://github.com/EmanDev)
 
 ## Credits
 
