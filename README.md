@@ -15,13 +15,13 @@ Downloads are available [here](https://emandev.github.io/css-sl/).
 
 Latest version is Version 1.4
 
-### Requirements
+## Requirements
 
 1. Windows 7 (or higher).
 2. Installed Counter-Strike: Source Dedicated Server.
 3. .Net Framework 3.5 and above.
 
-### Installing
+## Installing
 
 Extract it to any folder on your windows system along with the DLLs included in the archive then run the Executable file.
 
@@ -36,7 +36,7 @@ Extract it to any folder on your windows system along with the DLLs included in 
 
 Report [here](https://github.com/EmanDev/Counter-Strike--Source-Server-Launcher/issues).
 
-### Programming Language/s Used
+## Programming Language/s Used
 
 Visual Basic
 
