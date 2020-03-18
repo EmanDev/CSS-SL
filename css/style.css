@@ -62,4 +62,12 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center
+
+}
+
+iframe{
+	width: 75%%;
+	max-width: 80%;
+	min-width: 60%
+
 }
