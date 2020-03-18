@@ -9,7 +9,7 @@ Counter-Strike: Source Server Launcher (CS:S-SL) is a a program written in Visua
 
 ## Downloads
 
-Downloads are available [here](https://emandev.github.io/downloads.html).
+Downloads are available [here](https://emandev.github.io/css-sl/).
 
 ### Latest Version
 
@@ -53,6 +53,7 @@ You can edit it yourself without my permission. But please credit me as source/a
 > Changes in this file may get error while using it. If error occur, re-download the archive and extract and replace modified files.
 
 ## Author
+
 [Eman Marcaida](https://github.com/EmanDev)
 
 ## Credits
