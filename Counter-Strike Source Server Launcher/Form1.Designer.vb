@@ -36,6 +36,7 @@ Partial Class Form1
         Me.MetroTextBox2 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroButton2 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel2 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroCheckbox1 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroTextBox1 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
@@ -51,7 +52,6 @@ Partial Class Form1
         Me.MetroLink1 = New MetroFramework.Controls.MetroLink()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.MetroStyleManager1 = New MetroFramework.Components.MetroStyleManager(Me.components)
-        Me.MetroCheckbox1 = New MetroFramework.Controls.MetroCheckBox()
         Me.MetroTabControl1.SuspendLayout()
         Me.MetroTabPage1.SuspendLayout()
         Me.MetroTabPage2.SuspendLayout()
@@ -203,6 +203,18 @@ Partial Class Form1
         Me.MetroLabel2.TabIndex = 6
         Me.MetroLabel2.Text = "B. Configure and Launch srcds.exe"
         '
+        'MetroCheckbox1
+        '
+        Me.MetroCheckbox1.AutoSize = True
+        Me.MetroCheckbox1.Checked = Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default.chk1
+        Me.MetroCheckbox1.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default, "chk1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.MetroCheckbox1.Location = New System.Drawing.Point(129, 60)
+        Me.MetroCheckbox1.Name = "MetroCheckbox1"
+        Me.MetroCheckbox1.Size = New System.Drawing.Size(108, 15)
+        Me.MetroCheckbox1.TabIndex = 5
+        Me.MetroCheckbox1.Text = "Remember Path"
+        Me.MetroCheckbox1.UseSelectable = True
+        '
         'MetroTextBox1
         '
         '
@@ -321,7 +333,7 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"Changelog:", "• Remove the bugged style ""White"" from the Theme Manager", "• Added All available ""Theme + Styles"" on Theme Manager", "• Added new parameters (default map will be de_dust)", "Next:", "• Metrofy Status Box (form: ListBox1) to support style and themes", "• More features to be added"})
+        Me.ListBox1.Items.AddRange(New Object() {"Changelog:", "• Added save and load functions on both forms", "• Fixed text bugs in the app", "• Improved If-Then-Else Statements", "• Removed one (1) metro checkbox"})
         Me.ListBox1.Location = New System.Drawing.Point(6, 31)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True
@@ -367,18 +379,6 @@ Partial Class Form1
         'MetroStyleManager1
         '
         Me.MetroStyleManager1.Owner = Me
-        '
-        'MetroCheckbox1
-        '
-        Me.MetroCheckbox1.AutoSize = True
-        Me.MetroCheckbox1.Checked = Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default.chk1
-        Me.MetroCheckbox1.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.Counter_Strike_Source_Server_Launcher.My.MySettings.Default, "chk1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.MetroCheckbox1.Location = New System.Drawing.Point(129, 60)
-        Me.MetroCheckbox1.Name = "MetroCheckbox1"
-        Me.MetroCheckbox1.Size = New System.Drawing.Size(108, 15)
-        Me.MetroCheckbox1.TabIndex = 5
-        Me.MetroCheckbox1.Text = "Remember Path"
-        Me.MetroCheckbox1.UseSelectable = True
         '
         'Form1
         '
