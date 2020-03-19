@@ -9,23 +9,27 @@ html {
 	scroll-behavior: smooth;
 }
 
-a:hover {color: #fff;}
+a:hover {
+	color: #fff;
+}
 
-img{
+img {
 	width: 85%;
 }
 
-body{
+body {
 	overflow: hidden;
 }
 
-.leftside, .rightside, .above-content{
+.leftside,
+.rightside,
+.above-content {
 	height: 100vh;
 	width: 100%;
 
 }
 
-.leftside{
+.leftside {
 	background: #fff;
 	display: flex;
 	flex-direction: column;
@@ -33,14 +37,14 @@ body{
 	justify-content: center;
 }
 
-.rightside{
+.rightside {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-.above-content{
+.above-content {
 	background-image: url('../img/800252.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -50,4 +54,58 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+/* Custom Preloader */
+
+.loader_bg {
+	position: fixed;
+	z-index: 999999;
+	background: #000000;
+	width: 100%;
+	height: 100%;
+}
+
+.loader {
+	border: 0 solid transparent;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: calc(50vh - 75px);
+	left: calc(50vw - 75px);
+}
+
+.loader:before,
+.loader:after {
+	content: '';
+	border: 1rem solid #fff;
+	border-radius: 50%;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: loader 2s linear infinite;
+	opacity: 0;
+}
+
+.loader:before {
+	animation-delay: 0.5s;
+}
+
+@keyframes loader {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
 }
