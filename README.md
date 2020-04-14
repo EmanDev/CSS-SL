@@ -13,7 +13,7 @@ Downloads are available [here](https://emandev.github.io/css-sl/).
 
 ## Latest Version
 
-Latest version is Version 1.4
+Latest version is Version 1.5
 
 ## Requirements
 
