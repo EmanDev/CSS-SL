@@ -2,6 +2,7 @@
 Imports System.Windows.Forms
 Imports System.ComponentModel
 Imports System.Windows.Forms.CheckState
+Imports System.IO
 
 ' Form 1 Update: Added Save and Load Functions
 ' Fixed Text bugs in the App
@@ -38,13 +39,19 @@ Public Class Form1
                 If My.Forms.Form2.MetroComboBox1.Text = "Light" Then
                     My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Light
                     My.Forms.Form2.MetroStyleManager1.Theme = MetroThemeStyle.Light
+                    My.Forms.Form3.MetroStyleManager1.Theme = MetroThemeStyle.Light
+                    My.Forms.Form4.MetroStyleManager1.Theme = MetroThemeStyle.Light
                 Else
                     If My.Forms.Form2.MetroComboBox1.Text = "Dark" Then
                         My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Dark
                         My.Forms.Form2.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+                        My.Forms.Form3.MetroStyleManager1.Theme = MetroThemeStyle.Dark
+                        My.Forms.Form4.MetroStyleManager1.Theme = MetroThemeStyle.Dark
                     Else
                         My.Forms.Form1.MetroStyleManager1.Theme = MetroThemeStyle.Default
                         My.Forms.Form2.MetroStyleManager1.Theme = MetroThemeStyle.Default
+                        My.Forms.Form3.MetroStyleManager1.Theme = MetroThemeStyle.Default
+                        My.Forms.Form4.MetroStyleManager1.Theme = MetroThemeStyle.Default
                     End If
                 End If
 
@@ -52,57 +59,85 @@ Public Class Form1
                 If My.Forms.Form2.MetroComboBox2.Text = "Default" Then
                     My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Default
                     My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Default
+                    My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Default
+                    My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Default
                 Else
                     If My.Forms.Form2.MetroComboBox2.Text = "Black" Then
                         My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Black
                         My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Black
+                        My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Black
+                        My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Black
                     Else
                         If My.Forms.Form2.MetroComboBox2.Text = "Blue" Then
                             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Blue
                             My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Blue
+                            My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Blue
+                            My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Blue
                         Else
                             If My.Forms.Form2.MetroComboBox2.Text = "Silver" Then
                                 My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Silver
                                 My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Silver
+                                My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Silver
+                                My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Silver
                             Else
                                 If My.Forms.Form2.MetroComboBox2.Text = "Green" Then
                                     My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Green
                                     My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Green
+                                    My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Green
+                                    My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Green
                                 Else
                                     If My.Forms.Form2.MetroComboBox2.Text = "Lime" Then
                                         My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Lime
                                         My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Lime
+                                        My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Lime
+                                        My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Lime
                                     Else
                                         If My.Forms.Form2.MetroComboBox2.Text = "Teal" Then
                                             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Teal
                                             My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Teal
+                                            My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Teal
+                                            My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Teal
                                         Else
                                             If My.Forms.Form2.MetroComboBox2.Text = "Orange" Then
                                                 My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Orange
                                                 My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Orange
+                                                My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Orange
+                                                My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Orange
                                             Else
                                                 If My.Forms.Form2.MetroComboBox2.Text = "Brown" Then
                                                     My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Brown
                                                     My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Brown
+                                                    My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Brown
+                                                    My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Brown
                                                 Else
                                                     If My.Forms.Form2.MetroComboBox2.Text = "Pink" Then
                                                         My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Pink
                                                         My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Pink
+                                                        My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Pink
+                                                        My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Pink
                                                     Else
                                                         If My.Forms.Form2.MetroComboBox2.Text = "Magenta" Then
                                                             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Magenta
                                                             My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Magenta
+                                                            My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Magenta
+                                                            My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Magenta
                                                         Else
                                                             If My.Forms.Form2.MetroComboBox2.Text = "Purple" Then
                                                                 My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Purple
                                                                 My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Purple
+                                                                My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Purple
+                                                                My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Purple
                                                             Else
                                                                 If My.Forms.Form2.MetroComboBox2.Text = "Red" Then
                                                                     My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Red
                                                                     My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Red
+                                                                    My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Red
+                                                                    My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Red
                                                                 Else
                                                                     My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Yellow
                                                                     My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Yellow
+                                                                    My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Yellow
+                                                                    My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Yellow
                                                                 End If
                                                             End If
                                                         End If
@@ -124,6 +159,10 @@ Public Class Form1
             My.Forms.Form2.MetroStyleManager1.Theme = MetroThemeStyle.Default
             My.Forms.Form1.MetroStyleManager1.Style = MetroColorStyle.Default
             My.Forms.Form2.MetroStyleManager1.Style = MetroColorStyle.Default
+            My.Forms.Form3.MetroStyleManager1.Theme = MetroThemeStyle.Default
+            My.Forms.Form4.MetroStyleManager1.Theme = MetroThemeStyle.Default
+            My.Forms.Form3.MetroStyleManager1.Style = MetroColorStyle.Default
+            My.Forms.Form4.MetroStyleManager1.Style = MetroColorStyle.Default
         End If
 
         'Theme & Style Manager Function Load
@@ -167,11 +206,17 @@ Public Class Form1
     End Sub
 
     Private Sub MetroButton2_Click(sender As Object, e As EventArgs) Handles MetroButton2.Click
-        Dim srcds As New ProcessStartInfo
-        srcds.FileName = MetroTextBox1.Text
-        srcds.Arguments = MetroTextBox2.Text
-        srcds.UseShellExecute = True
-        Dim proc As Process = Process.Start(srcds)
+        Dim where As String = MetroTextBox1.Text
+        Dim exactWhere As String = where.Substring(0, where.LastIndexOf("\"))
+        If MetroTextBox1.Text = exactWhere + "\srcds.exe" Then
+            Dim srcds As New ProcessStartInfo
+            srcds.FileName = MetroTextBox1.Text
+            srcds.Arguments = MetroTextBox2.Text
+            srcds.UseShellExecute = True
+            Dim proc As Process = Process.Start(srcds)
+        Else
+            MessageBox.Show("Please properly locate srcds.exe", "Error locating SRCDS", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
     End Sub
 
     Private Sub MetroButton3_Click(sender As Object, e As EventArgs) Handles MetroButton3.Click
@@ -182,6 +227,8 @@ Public Class Form1
             Dim sitem As Object
             sitem = MetroComboBox1.SelectedItem
             MetroTextBox2.Text = sitem
+        Else
+            MessageBox.Show("Please select a parameter", "Counter-Strike: Source Server Launcher", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
 
@@ -225,6 +272,14 @@ Public Class Form1
         If MetroCheckbox1.Checked = True Then
             My.Settings.path = MetroTextBox1.Text
             My.Settings.Save()
+        End If
+    End Sub
+
+    Private Sub MetroTile3_Click(sender As Object, e As EventArgs) Handles MetroTile3.Click
+        If MetroTextBox1.Text = "" Then
+            MessageBox.Show("Error locating srcds folder.", "Error on Path", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            Form3.Show()
         End If
     End Sub
 End Class

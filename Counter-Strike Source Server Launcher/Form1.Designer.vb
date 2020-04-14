@@ -41,6 +41,7 @@ Partial Class Form1
         Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
+        Me.MetroTile3 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile2 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile1 = New MetroFramework.Controls.MetroTile()
         Me.MetroTabPage3 = New MetroFramework.Controls.MetroTabPage()
@@ -101,11 +102,19 @@ Partial Class Form1
         '
         Me.MetroComboBox1.FormattingEnabled = True
         Me.MetroComboBox1.ItemHeight = 23
-        Me.MetroComboBox1.Items.AddRange(New Object() {"-game cstrike", "-game cstrike -autoupdate -port 27015 -secure -tickrate 100 +map de_dust +sv_lan " &
+        Me.MetroComboBox1.Items.AddRange(New Object() {"-game cstrike", "-console -game cstrike", "-game cstrike -autoupdate -port 27015 -secure -tickrate 100 +map de_dust +sv_lan " &
                 "1 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -insecure -tickrate 100 +map de_dust +sv_la" &
                 "n 1 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -secure -steam -tickrate 100 +map de_dust +" &
                 "sv_lan 1 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -insecure -steam -tickrate 100 +map de_dust" &
-                " +sv_lan 1 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -secure -tickrate 100 +map de_dust" &
+                " +sv_lan 1 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -secure -tickrate 100 +map de_dust +sv_lan " &
+                "0 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -insecure -tickrate 100 +map de_dust +sv_la" &
+                "n 0 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -secure -steam -tickrate 100 +map de_dust +" &
+                "sv_lan 0 +maxplayers 32", "-game cstrike -autoupdate -port 27015 -insecure -steam -tickrate 100 +map de_dust" &
+                " +sv_lan 0 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -secure -tickrate 100 +map de_dust" &
+                " +sv_lan 0 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -insecure -tickrate 100 +map de_du" &
+                "st +sv_lan 0 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -secure -steam -tickrate 100 +map " &
+                "de_dust +sv_lan 0 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -insecure -steam -tickrate 100 +ma" &
+                "p de_dust +sv_lan 0 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -secure -tickrate 100 +map de_dust" &
                 " +sv_lan 1 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -insecure -tickrate 100 +map de_du" &
                 "st +sv_lan 1 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -secure -steam -tickrate 100 +map " &
                 "de_dust +sv_lan 1 +maxplayers 32", "-console -game cstrike -autoupdate -port 27015 -insecure -steam -tickrate 100 +ma" &
@@ -266,6 +275,7 @@ Partial Class Form1
         '
         'MetroTabPage2
         '
+        Me.MetroTabPage2.Controls.Add(Me.MetroTile3)
         Me.MetroTabPage2.Controls.Add(Me.MetroTile2)
         Me.MetroTabPage2.Controls.Add(Me.MetroTile1)
         Me.MetroTabPage2.HorizontalScrollbarBarColor = True
@@ -280,11 +290,22 @@ Partial Class Form1
         Me.MetroTabPage2.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage2.VerticalScrollbarSize = 10
         '
+        'MetroTile3
+        '
+        Me.MetroTile3.ActiveControl = Nothing
+        Me.MetroTile3.BackColor = System.Drawing.SystemColors.Control
+        Me.MetroTile3.Location = New System.Drawing.Point(164, 3)
+        Me.MetroTile3.Name = "MetroTile3"
+        Me.MetroTile3.Size = New System.Drawing.Size(158, 75)
+        Me.MetroTile3.TabIndex = 4
+        Me.MetroTile3.Text = "SRCDS Fixes"
+        Me.MetroTile3.UseSelectable = True
+        '
         'MetroTile2
         '
         Me.MetroTile2.ActiveControl = Nothing
         Me.MetroTile2.BackColor = System.Drawing.SystemColors.Control
-        Me.MetroTile2.Location = New System.Drawing.Point(164, 3)
+        Me.MetroTile2.Location = New System.Drawing.Point(325, 3)
         Me.MetroTile2.Name = "MetroTile2"
         Me.MetroTile2.Size = New System.Drawing.Size(158, 75)
         Me.MetroTile2.TabIndex = 3
@@ -333,7 +354,7 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"Changelog:", "• Added save and load functions on both forms", "• Fixed text bugs in the app", "• Improved If-Then-Else Statements", "• Removed one (1) metro checkbox"})
+        Me.ListBox1.Items.AddRange(New Object() {"Changelog:", "• Added a fix if srcds encounters Error Reading Application ID while launching", "• Added new launch parameters", "• Added message boxes for situational problems"})
         Me.ListBox1.Location = New System.Drawing.Point(6, 31)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True
@@ -429,4 +450,5 @@ Partial Class Form1
     Friend WithEvents MetroTile2 As MetroFramework.Controls.MetroTile
     Friend WithEvents MetroLabel5 As MetroFramework.Controls.MetroLabel
     Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents MetroTile3 As MetroFramework.Controls.MetroTile
 End Class

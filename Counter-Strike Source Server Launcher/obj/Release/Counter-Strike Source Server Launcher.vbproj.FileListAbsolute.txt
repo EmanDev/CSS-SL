@@ -1,0 +1,19 @@
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\Counter-Strike Source Server Launcher.exe.config
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\Counter-Strike Source Server Launcher.exe
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\Counter-Strike Source Server Launcher.pdb
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\Counter-Strike Source Server Launcher.xml
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\MetroFramework.Design.dll
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\MetroFramework.dll
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\bin\Release\MetroFramework.Fonts.dll
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.vbprojAssemblyReference.cache
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter_Strike_Source_Server_Launcher.Form1.resources
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter_Strike_Source_Server_Launcher.Form2.resources
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter_Strike_Source_Server_Launcher.Form3.resources
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter_Strike_Source_Server_Launcher.Form4.resources
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter_Strike_Source_Server_Launcher.Resources.resources
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.vbproj.GenerateResource.cache
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.vbproj.CoreCompileInputs.cache
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.vbproj.CopyComplete
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.exe
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.xml
+C:\Users\gamea\Documents\GitHub\css-sl\Counter-Strike Source Server Launcher\obj\Release\Counter-Strike Source Server Launcher.pdb

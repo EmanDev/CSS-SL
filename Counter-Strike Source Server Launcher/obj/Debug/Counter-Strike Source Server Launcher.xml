@@ -22,5 +22,26 @@ Counter-Strike Source Server Launcher
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Counter_Strike_Source_Server_Launcher.My.Resources.Resources.rev">
+<summary>
+  Looks up a localized string similar to [Emulator]
+
+# CacheEnabled set to true to enable loading apps from GCF. 
+# If it is true, and a clientregistry.blob file is not supplied, 
+# then you must supply revApps.ini file with the correct cache requirements. 
+# See the example revApps.ini, however it is highly recommended that you use
+# a clientregistry.blob file for maximum compatibility
+#
+# Default = False
+#
+CacheEnabled = false
+
+# CachePath - set to the folder where your GCF files are located
+#
+# Default = (n/a)
+#
+CachePath = D:\S [rest of string was truncated]&quot;;.
+</summary>
+</member>
 </members>
 </doc>
